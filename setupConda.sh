@@ -12,7 +12,7 @@ conda activate base
 conda env remove --name llm-demo -y
 
 # Create new environment
-conda create -n llm-demo python=3.12 -y
+conda create -name llm-demo python=3.12 -y
 
 # Activate new environment
 conda activate llm-demo
@@ -24,3 +24,5 @@ pip install -r requirements.txt
 
 pip list | grep chain
 pip list | grep pydantic
+
+conda activate llm-demo
