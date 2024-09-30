@@ -6,7 +6,8 @@
 - cd into repository.
 - Edit the example.env file and rename as .env so your keys are visible.
 - Execute "chainlit run app.py" in a CLI window.
-- Use the program, and let me know about problems.
+- Use the program locally, and let me know about problems.
+- Optionally, build a Docker image and proceed from there.
 
 ## Project Outline
 ### Overall Problem and Setting
